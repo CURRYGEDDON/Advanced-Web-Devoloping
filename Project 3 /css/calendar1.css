@@ -1,0 +1,77 @@
+    body {
+          font-size: 18px;
+          padding: 36px;
+    }
+
+    tbody {
+            border: thick solid gold;
+            font-family: 'Pangolin', Verdana, sans-serif;
+    }
+
+    thead {
+            font-family: 'Roboto', Arial, sans-serif;
+    }
+
+    th {
+            border: thin solid royalblue;
+            border-collapse: collapse;
+            width: 14.2857142857142857142857142857142857142857142857142857%;
+            height: 2em;
+            vertical-align: middle;
+    }
+
+    tbody td {
+            border: thin solid royalblue;
+            width: 14.2857142857142857142857142857142857142857142857142857%;
+            height: 5em;
+            overflow: auto;
+            padding: 5px;
+            margin: 0;
+            vertical-align: top;
+    }
+
+    thead > tr > th[colspan="7"] {
+            border: none;
+            font-size: 2em;
+            font-weight: bold;
+    }
+
+    thead > tr:nth-child(2) {
+            border: thick solid gold;
+    }
+
+    td ul {
+            text-align: left;
+            clear: left;
+            margin-top: 10px;
+    }
+
+    td ul li {
+            background-color: lightblue;
+    }
+
+    td ul li:nth-child(even) {
+            background-color: lightcyan;
+    }
+
+    .day-number {
+            float: left;
+            width: 1.5em;
+            color: #4169e1;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            padding: 0;
+            text-align: right;
+    }
+
+    .out {
+            color: #ddd;
+            color: rgba(65, 105, 225, .5)
+    }
+
+    .special-day {
+            font-family: 'Roboto', Arial, sans-serif;
+            color: red;
+            margin: 0 0 0 1.75em;
+            padding: 0;
+    }

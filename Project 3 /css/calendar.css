@@ -1,0 +1,101 @@
+/* Made by Nathan Patnam  2-23-17*/
+body {
+  font-size: 18px;
+  padding: 36px;
+}
+
+thead tr:nth-child(2) th{
+  font-family: 'Roboto' , Arial, sans-serif;
+  font-size: 25px;
+  background-color: yellow;
+  border-collapse: collapse;
+  width: 14.285714285%;
+  vertical-align: middle;
+  border: 3px solid blue;
+}
+
+thead tr:nth-child(2){
+  border: 5px solid purple;
+}
+
+
+
+thead tr:nth-child(1){
+  font-family: 'Roboto' , Arial, sans-serif;
+  font-size: 44px;
+  height:1.3em;
+  border: none;
+}
+
+
+
+
+
+tbody{
+    border: 5px solid purple;
+  border-collapse: collapse;
+
+}
+
+tbody td{
+  height:5em;
+  margin: 0;
+  padding: 5px;
+  width: 14.285714285%;
+  overflow: auto;
+  border: 3px solid blue;
+  vertical-align: top;
+}
+
+
+ul li{
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+
+
+.day-number{
+  font-family: 'Pangolin' , Arial, sans-serif;
+  color:green;
+  float:left;
+  width: 1.5em;
+  margin:0 0 0 0;
+  padding:0;
+  text-align:right;
+}
+
+div.special-day{
+  font-family: 'Roboto' , Arial, sans-serif;
+  margin-left:2em;
+  color: red;
+  padding: 0;
+
+
+
+}
+ul li {
+  text-align: left;
+  clear:left;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+
+}
+ul li:nth-child(odd){
+  font-family: 'Pangolin' , Arial, sans-serif;
+  background-color: skyblue;
+}
+
+ul li:nth-child(even){
+  font-family: 'Pangolin' , Arial, sans-serif;
+  background-color: dodgerblue;
+}
+
+
+.out{
+  font-family: 'Pangolin' , Arial, sans-serif;
+  color:red;
+  color: rgba(0,0,255,.4);
+}
